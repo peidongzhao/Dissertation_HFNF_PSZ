@@ -10,7 +10,7 @@ from Func_a_StressAroundCrack import *
 start_time = timeit.default_timer()
 
 import os
-save_plots_to = str(os.getcwd()) + '/Plots/'
+save_plots_to = str(os.getcwd()) +'/Plots/'
 fig_name_1 = 'a_01_StressField_all.png'
 
 ##############################################################################
