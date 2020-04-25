@@ -65,9 +65,9 @@ for j in TVD:
     # print(xmax)
 
 text = ('\
-F.G = %.0f kPa/m\n\
-H.G = %.1f kPa/m\n\
-P.G  = %.1f*H.G\n\
+FG = %.0f kPa/m\n\
+HG = %.1f kPa/m\n\
+PG = %.1f*H.G\n\
 S$_{2}$/S$_{1}$ = %.2F\n\
 a = %.0f m\n\
 P$_{net}$ = %.0f MPa\n\

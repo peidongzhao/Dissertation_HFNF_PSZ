@@ -64,9 +64,9 @@ for j in k:
     # print(xmax)
 
 text = ('\
-F.G = %.0f kPa/m\n\
-H.G = %.1f kPa/m\n\
-P.G  = %.1f*H.G\n\
+FG  = %.0f kPa/m\n\
+HG  = %.1f kPa/m\n\
+PG  = %.1f*H.G\n\
 TVD = 3300 m\n\
 S$_{2}$ = %.0f MPa\n\
 P$_{p}$ = %.0f MPa\n\
