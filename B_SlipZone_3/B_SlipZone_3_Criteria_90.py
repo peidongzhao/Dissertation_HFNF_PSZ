@@ -51,7 +51,7 @@ DC = 'C2'   # For coloring
 ax2.plot(-1000,1000,color=DC,label='$\mu$ = '+str(miu)) 
 ax2.contour(RE_01.x, RE_01.y, RE_01.Fail_2,[0.5, 1],colors=DC,linewidth=0.1)
 ax2.contourf(RE_01.x, RE_01.y, RE_01.Fail_2, [0.5, 1], cmap=plt.cm.Greens)
-ax2.set_title('Criterion 2: NF Re-open',fontsize=12) 
+ax2.set_title('Criterion 2: NF Reopen',fontsize=12) 
 # ax2.set_ylabel('y (m)',rotation=90, fontsize=12)
 ax2.set_xlabel('x (m)', fontsize=12)
 ax2.plot([0,half_length],[0,0],'k-',linewidth=1)
@@ -121,14 +121,14 @@ ax = fig.add_subplot(1,1,1)
 
 #           Criterion 1: If new Frac initiate at the other end
 DC = 'C1'   # For coloring 
-ax.plot(-1000,1000,color=DC,label='HF Re-Initiate') 
+ax.plot(-1000,1000,color=DC,label='HF Initiate') 
 ax.contour(RE_01.x, RE_01.y, RE_01.Fail_1,[0.5, 1],colors=DC,linewidth=0.1)
 ax.contourf(RE_01.x, RE_01.y, RE_01.Fail_1, [0.5, 1], cmap=plt.cm.Oranges)
 
 
 #                         Criterion 2: If NF open
 DC = 'C2'   # For coloring 
-ax.plot(-1000,1000,color=DC,label='NF Re-Open') 
+ax.plot(-1000,1000,color=DC,label='NF Reopen') 
 ax.contour(RE_01.x, RE_01.y, RE_01.Fail_2,[0.5, 1],colors=DC,linewidth=0.1)
 ax.contourf(RE_01.x, RE_01.y, RE_01.Fail_2, [0.5, 1], cmap=plt.cm.Greens)
 
