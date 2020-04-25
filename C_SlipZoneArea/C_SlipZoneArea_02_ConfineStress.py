@@ -67,11 +67,11 @@ for j in TVD:
 text = ('\
 FG = %.0f kPa/m\n\
 HG = %.1f kPa/m\n\
-PG = %.1f*H.G\n\
+PG = %.1f*HG\n\
 S$_{2}$/S$_{1}$ = %.2F\n\
-a = %.0f m\n\
-P$_{net}$ = %.0f MPa\n\
-K$_{1}$ = %.1f MPa$\sqrt{m}$\n\
+a = %.d m\n\
+P$_{net}$ = %.d MPa\n\
+K$_{1}$ = %.d MPa$\sqrt{m}$\n\
 $\\mu$ = %.1f'\
         %(FG*1000,PG*1000,OverPress,k,half_length,P_net,K1,miu))
 

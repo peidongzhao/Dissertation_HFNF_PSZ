@@ -6,20 +6,20 @@
 import os
 
 ########################################################
-
-print('Part A')
-
-file_location = str(os.getcwd()) + '/A_StressAroundCrack'
-
-os.system('python ' + file_location +'/'+ 'A_StressAroundCrack_1fig_2by2.py')
+#
+# print('Part A')
+#
+# file_location = str(os.getcwd()) + '/A_StressAroundCrack'
+#
+# os.system('python ' + file_location +'/'+ 'A_StressAroundCrack_1fig_2by2.py')
 
 ########################################################
 
-print('Part B')
-
-file_location = str(os.getcwd()) + '/B_SlipZone_3'
- 
-os.system('python ' + file_location +'/'+ 'B_SlipZone_3_Criteria_90.py')
+# print('Part B')
+#
+# file_location = str(os.getcwd()) + '/B_SlipZone_3'
+#
+# os.system('python ' + file_location +'/'+ 'B_SlipZone_3_Criteria_90.py')
 
 #########################################################
 

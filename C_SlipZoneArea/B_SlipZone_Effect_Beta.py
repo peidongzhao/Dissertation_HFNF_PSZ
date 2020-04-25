@@ -171,8 +171,8 @@ a  = %.0f m\n\
 S$_{1}$ = %d MPa\n\
 S$_{2}$ = %d MPa\n\
 P$_{p}$ = %d MPa\n\
-P$_{n}$ = %.1f MPa\n\
-K$_{1}$ = %.1f MPa$\sqrt{m}$\n\
+P$_{n}$ = %.d MPa\n\
+K$_{1}$ = %.d MPa$\sqrt{m}$\n\
 $\\mu$  = %.1f'\
         %(half_length,S1,S2,P_pore,P_net,K1,miu))
 props = dict(boxstyle='round', facecolor='whitesmoke', alpha=0.9, edgecolor='none')     

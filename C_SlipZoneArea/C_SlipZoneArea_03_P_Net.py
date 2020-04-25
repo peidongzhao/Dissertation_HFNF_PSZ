@@ -63,11 +63,11 @@ for j in P_net:
 text = ('\
 FG  = %.0f kPa/m\n\
 HG  = %.1f kPa/m\n\
-PG  = %.1f*H.G\n\
+PG  = %.1f*HG\n\
 TVD = 3300 m\n\
 S$_{2}$ = %d MPa\n\
 S$_{2}$/S$_{1}$ = %.2F\n\
-P$_{p}$ = %.1f MPa\n\
+P$_{p}$ = %.0f MPa\n\
 a = %.0f m\n\
 $\\mu$ = %.1f'\
         %(FG*1000,PG*1000,OverPress,S2,k,P_pore,half_length,miu))

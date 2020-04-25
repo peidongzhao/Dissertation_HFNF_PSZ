@@ -58,7 +58,7 @@ for j in OverPress:
                
     DC = 'C'+str(num_S_diff)
     
-    plt.plot(beta,area,color=DC,label='P.G = %.1f*H.G'%j)
+    plt.plot(beta,area,color=DC,label='PG = %.1f*HG'%j)
     xmax = beta[np.argmax(area)]
     ymax = area.max()
     plt.plot(xmax,ymax,'ro')
@@ -76,7 +76,7 @@ S$_{2}$ = %d MPa\n\
 S$_{2}$/S$_{1}$ = %.2F\n\
 a = %.0f m\n\
 P$_{net}$ = %.0f MPa\n\
-K$_{1}$ = %.1f MPa$\sqrt{m}$\n\
+K$_{1}$ = %.d MPa$\sqrt{m}$\n\
 $\\mu$ = %.1f'\
         %(FG*1000,PG*1000,S2,k,half_length,P_net,K1,miu))
 

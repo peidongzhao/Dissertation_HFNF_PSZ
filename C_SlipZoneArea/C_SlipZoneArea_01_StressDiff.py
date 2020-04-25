@@ -66,13 +66,13 @@ for j in k:
 text = ('\
 FG  = %.0f kPa/m\n\
 HG  = %.1f kPa/m\n\
-PG  = %.1f*H.G\n\
+PG  = %.1f*HG\n\
 TVD = 3300 m\n\
 S$_{2}$ = %.0f MPa\n\
 P$_{p}$ = %.0f MPa\n\
 a = %.0f m\n\
-P$_{net}$ = %.0f MPa\n\
-K$_{1}$ = %.1f MPa$\sqrt{m}$\n\
+P$_{net}$ = %.d MPa\n\
+K$_{1}$ = %.d MPa$\sqrt{m}$\n\
 $\\mu$ = %.1f'\
         %(FG*1000,PG*1000,OverPress,S2,P_pore,half_length,P_net,K1,miu))
 
