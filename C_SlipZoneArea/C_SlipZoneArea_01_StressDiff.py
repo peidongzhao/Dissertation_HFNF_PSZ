@@ -27,7 +27,7 @@ delta = 0.01;
 P_net = 4
 
 TVD = 3300
-FG = 0.022;     S2 = TVD*FG; # KPa/m
+FG = 0.022;     S2 = TVD*FG; # actual unit: KPa/m, here we used MPa for stress
 PG =0.0098;     OverPress = 1.8;      P_pore = TVD*PG*OverPress # KPa/m
 
 miu    = 0.4
